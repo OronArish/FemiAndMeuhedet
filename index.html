@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+
+
+$(document).ready(function() {
+  $(".questions-single").on("click", function() {
+    $(this).find(".questions-single-answer").slideToggle(200)
+})
+})
+
+    </script>
+    <title>Femi</title>
+</head>
+
+<body>
+<div id="header">
+    <img class="femi-img" src="https://health-client.digitalprd.femi.com/images/לוגו%20פמי%20חדש.png" alt="femilogo">
+    <img class="meuhedet-img" src="https://www.meuhedet.co.il/media/5402/meuhedet_logo_english-png.png" alt="meuhedetlogo">
+</div>
+
+
+<div id="content">
+    <div class="questions">
+    <h2 class="questions-title"> שאלות ותשובות </h2>
+    <div class="questions-con">
+        <div class="questions-single">
+            <div class="questions-single-title">
+             <span> מה עושים במידה ולא מתחבר לי לייעוץ? </span>
+             <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#16254F" stroke-width="2" fill="none" fill-rule="evenondd" stroke-linecap="round">
+                    <path d="M2 8.528h11.806M7.903 14.434V2.621"></path>
+                </g>
+             </svg>
+            </div>
+            <div class="questions-single-answer" style="display: none">
+            יש לבדוק חיבור פעיל לאינטרנט ולוודא אחוזי סוללה מעל 20%
+            </div>
+        </div>
+        <div class="questions-single">
+            <div class="questions-single-title active-section">
+             <span> מה האפליקציה דורשת? </span>
+             <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#16254F" stroke-width="2" fill="none" fill-rule="evenondd" stroke-linecap="round">
+                    <path d="M2 8.528h11.806M7.903 14.434V2.621"></path>
+                </g>
+             </svg>
+            </div>
+            <div class="questions-single-answer" style="display: none">
+                <ul class="questions-single-answer questions-single-answer-ul" style="display: none">
+                    <li> מתן הרשאות למיקרופון,קבצים ומצלמה </li>
+                    <li> מעל 20% סוללה </li>
+                    <li> חיבור אינטרנט יציב וקליטה </li>
+                </ul>
+            </div>
+        </div>
+        <div class="questions-single">
+            <div class="questions-single-title active-section">
+             <span> מי קהל היעד של האפליקציה? </span>
+             <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#16254F" stroke-width="2" fill="none" fill-rule="evenondd" stroke-linecap="round">
+                    <path d="M2 8.528h11.806M7.903 14.434V2.621"></path>
+                </g>
+             </svg>
+            </div>
+            <div class="questions-single-answer" style="display: none">
+            קהל היעד הינו מבוטחי מאוחדת ועובדי פמי
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="footer">
+<div class="copyrights">Oron Arish 2022 ©</div>
+</div>
+
+</body>
+
+</html>
